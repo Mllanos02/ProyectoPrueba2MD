@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://lucent-yeot-3a131a.netlify.app
+Sitemap: https://kaleidoscopic-empanada-31f32d.netlify.app
