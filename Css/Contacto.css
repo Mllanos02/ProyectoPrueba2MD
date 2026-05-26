@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #033d09;
+    align-items: center;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 5%;
+    height: 1%;
+}
+
+nav{
+    align-content: center;
+    justify-content: space-around;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+article{
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    background-image: url("../Imagenes/img_1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 40px;
+    justify-content: space-around;
+}
+
+article > h2{
+    font-size: 30px;
+}
+
+.SeccionDesigual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    padding: 3% 0%;
+}
+.SeccionDesigual > main {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.SeccionDesigual > section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+section > img{
+    border-radius: 50%;
+    width: 6%;
+    height: 6%;
+}
+
+button {
+    margin: 10px;
+    width: 10%;
+    padding: 10px 0px;
+    display: block;
+    border: none;
+    background-color: #04AA6D;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+textarea{
+    width: 89%;
+    margin: 10px;
+}
+
+.SeccionDoble{
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.SeccionDoble > input{
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+}
+.submit{
+    width: 20%;
+    padding: 15px 0px;
+    color: black;
+    background-color: #04AA6D;
+    border: 0px;
+    margin-left: 10px;
+}
+.SeccionTriple{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1% 0%;
+}
+
+.SeccionTriple > div{
+    width: 33%;
+    text-align: center;
+}
+
+.Lado{
+    display: flex;
+    flex-direction: row;
+}
+
+.Abajo{
+    display: flex;
+    flex-direction: column;
+}
+
+.MargenAuto{
+    margin: auto;
+}
+
+.Logo{
+    width: 20%;
+    height: 20%;
+    align-self: center;
+}
+
+.Logitos{
+    justify-content: space-around;
+    width: 100%
+}
+
+.Logitos > img{
+    width: 5%;
+    height: 5%;
+}
+
+
+footer{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media (max-width: 800px) {
+    .submit{margin-left: 0}
+    header > img{width: 30%; margin: auto}
+    header, nav {display:flex; flex-direction: column; width: 100%; justify-content: center; text-align: center}
+    header > button {display:flex; flex-direction: column; width: 97%; justify-content: center; text-align: center}
+    .Lado, .LadoReversa {display:flex;flex-direction: column;}
+    .Lado img {margin: auto}
+    .SeccionDesigual, .SeccionDesigual > main, .SeccionDesigual > section {width: 100%; text-align: center}
+    textarea {width: 95%}
+    .SeccionTriple {flex-direction: column}
+    article{flex-direction: column; width: 100%; text-align: center}
+    .Logo{
+        width: 100%;
+        height: 100%;
+        align-self: center;
+    }
+    .Logitos > a > img{
+        width: 20%;
+        height: 20%;
+    }
+}

@@ -1,0 +1,529 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #033d09;
+    align-items: center;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: Calibri;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+
+img{
+    width: 5%;
+    height: 1%;
+}
+
+.Banner > h2{
+    font-size: 30px;
+}
+
+.Margen{
+    margin: 0;
+}
+
+.MargenAuto{
+    display: block;
+    margin: auto;
+}
+
+nav{
+    align-content: center;
+    justify-content: space-around;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+header > button{
+    padding: 0.5%;
+}
+
+.Banner{
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    background-image: url("../Imagenes/img_1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 40px;
+    justify-content: space-around;
+}
+
+article{
+    align-content: center;
+    text-align: justify;
+    color: white;
+    width: 100%;
+    background-image: url("../Imagenes/img_1.webp");
+    font-size: 30px;
+    padding: 4% 0%;
+}
+article > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+article > div > h1{
+    width: 30%;
+}
+
+article > div > div{
+    width: 40%;
+    height: 50%;
+    align-items: end;
+    text-align: right;
+}
+
+article > div > div > img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.Ad {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    justify-items: end;
+    font-size: 20px;
+}
+
+.Ad > h6{
+    width: 40%;
+}
+
+.Ad > div{
+    width: 30%;
+    background-color: white;
+    opacity: 90%;
+    color: black;
+}
+
+.Ad > div > img{
+    border-radius: 0;
+    width: 40%;
+    height: 50%;
+    opacity: 100%;
+    align-self: center;
+}
+
+.Ad > div >div{
+    text-align: left;
+    width: 40%;
+    opacity: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.Ad > div >div >button{
+    opacity: 100%;
+    width: 40%;
+}
+
+.Propiedad{
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+    font-size: 20px;
+    align-content: center;
+    color: white;
+    width: 100%;
+    padding: 1% 0%;
+}
+
+.Icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+.Propiedad > h3{
+    width: 19%;
+}
+
+.Propiedad > h4{
+    display: block;
+}
+
+.Propiedad > div{
+    width: 49%;
+}
+
+.Listados{
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.ListadosAlt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    padding: 0;
+}
+
+.ListadosAlt > h1, h4{
+    margin: 0;
+}
+
+.Facilidades{
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    padding: 1% 0%;
+}
+
+.Facilidades > .Titular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.Facilidades > div {
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.Facilidades > h5{
+    width: 80%;
+    text-align: left;
+}
+
+.Facilidades > div > div{
+    width: 10%;
+    align-items: center;
+    align-self: center;
+    overflow: hidden;
+}
+
+.Facilidades > div > .Bloque{
+    display: block;
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 10%;
+}
+
+.Video{
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Imagenes/img_1.webp");
+    font-size: 40px;
+}
+
+.Video > img{
+    width: 10%;
+    height: 30%;
+}
+
+.Planos{
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.Planos > .Notas{
+    width: 20%;
+    padding: 4% 15%;
+}
+
+.Planos > .Botones{
+    width: 65%;
+}
+
+.Planos > div > div > img{
+    height: 80%;
+    width: 70%;
+}
+
+.Carrousel{
+    width: 100%;
+    background: white;
+}
+
+.Carrousel > h3{
+    color: green;
+    margin-left: 70px;
+}
+
+.Titular{
+    justify-content: space-between;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.SeccionDesigual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    padding: 3% 0%;
+}
+.SeccionDesigual > main {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+section > h2 { color: green; }
+section > h1 { font-size: 70px}
+
+.SeccionDesigual > section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+section > img{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
+
+button {
+    margin: 10px;
+    width: 10%;
+    padding: 10px 0px;
+    display: block;
+    border: none;
+    background-color: #04AA6D;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit{
+    width: 20%;
+    padding: 15px 0px;
+    color: black;
+    background-color: #04AA6D;
+    border: 0px;
+    margin-left: 10px;
+}
+
+textarea{
+    width: 89%;
+    margin: 10px;
+    padding: 20px 0px;
+}
+
+.SeccionDoble{
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.SeccionDoble > input{
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.SeccionTriple{ color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1% 0%;
+}
+
+.Blanco{
+    white-space: pre-line
+}
+
+.Tiendas{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #04AA6D;
+}
+
+.Tiendas > div > .Botones > button{
+    background: #04AA6D;
+    color: black;
+}
+
+.Botones > div > .Selecionada{
+    background-color: green;
+    color:white;
+}
+
+.Tiendas > div{
+    padding: 1% 10%;
+}
+
+.Lado > img{
+    width: 10%;
+    height: 40%;
+}
+
+.SeccionTriple > div{
+    width: 33%;
+    text-align: center;
+}
+
+.Lado{
+    display: flex;
+    flex-direction: row;
+}
+
+.LadoReversa{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Selecionada > button{
+    background-color: greenyellow;
+}
+
+.Tiendas > div > .Botones > .Selecionada{
+    background-color: green;
+    color: white;
+}
+
+.Abajo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Derecha{
+    justify-self: end;
+}
+
+.Space{
+    justify-content: space-evenly;
+}
+
+.Space > div, .Space > h1{
+    width: 45%;
+}
+
+.Space > div{
+    justify-content: end;
+}
+
+.Carrousel > div > div > img{
+    width: 40%;
+    height: 40%;
+}
+
+.Space > div > button{
+    width: 10%;
+    justify-content: space-evenly;
+}
+.Logo{
+    width: 20%;
+    height: 20%;
+    align-self: center;
+}
+
+.Logitos{
+    justify-content: space-around;
+    width: 100%
+}
+
+.Logitos > a > img{
+    width: 20%;
+    height: 20%;
+    min-width: 20%;
+    min-height: 20%;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.Blanco {
+    color: black;
+    background-color: white;
+}
+/* A partir de 800px, el responsive se activa */
+@media (max-width: 800px) {
+    header > img{width: 30%; margin: auto}
+    header, nav {display:flex; flex-direction: column; width: 100%; justify-content: center; text-align: center}
+    header > button {display:flex; flex-direction: column; width: 20%; margin: auto; text-align: center}
+    article, .Ad, article > div, .Ad > div{display: flex; flex-direction: column; width: 100%; align-items: center;
+        text-align: center}
+    .Lado, .LadoReversa {display:flex;flex-direction: column;}
+    .Propiedad > div, .Propiedad > h3, .Propiedad > h4{ width: 100%; text-align: center;}
+    .Facilidades > h5 {text-align: center}
+    .Facilidades > div > div, .Facilidades > div > .Bloque {width: 100%; align-items: center}
+    .Video > img { width: 30%; height: 30%}
+    .Planos, .Notas, .Botones > div >button{display: flex; text-align: center; width: 100%; justify-content: center;}
+    .Planos > .Botones{display: flex; text-align: center; width: 95%; justify-content: center;}
+    .Planos > .Notas{text-align: center; width: 100%; justify-content: center; padding: 0}
+    .Titular{flex-direction: row;width: 100%}
+    .Tiendas, .Tiendas > div > .Botones > button{display: flex; text-align: center; width: 100%; justify-content: center;}
+    .Tiendas > div{text-align: center; width: 100%; justify-content: center;}
+    .Lado img {margin: auto}
+    .SeccionDesigual, .SeccionDesigual > main, .SeccionDesigual > section {width: 100%; text-align: center}
+    textarea {width: 95%}
+    .submit{margin-left: 0}
+    .SeccionTriple {flex-direction: column}
+    article{flex-direction: column; width: 100%; text-align: center}
+    .Carrousel, .Space > div, .Space > h1{width: 100%; justify-content: center; align-items: center; text-align: center}
+    .Logo{
+        width: 40%;
+        height: 40%;
+        align-self: center;
+    }
+
+    .Logitos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+    }
+
+    .Logitos > img{
+        width: 20%;
+        height: 20%;
+        margin-bottom: 3px;
+    }
+}

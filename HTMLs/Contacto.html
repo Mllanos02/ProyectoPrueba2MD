@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="description" content="The contact page for a real estate company">
+    <meta name="keywords" content="Home, Residence, Real Estate, Contact, Form, Hour, Date, Email">
+    <meta name="author" content="Mohn Lloe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="image" href="/Imagenes/img_1.webp" fetchpriority="high">
+    <link rel="stylesheet" href="../Css/Contacto.css">
+    <script src="../JS/Contacto.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../Imagenes/img.webp" alt="Logo">
+        <nav>
+            <a href="Home.html"> Home </a>
+            <a href="About.html"> About </a>
+            <a href="../Imagenes/img.webp"> Gallery </a>
+            <a href="News.html"> News </a>
+            <a href="Contacto.html"> Contact </a>
+        </nav>
+        <button> Schedule </button>
+    </header>
+    <article class="Lado">
+        <h1> CONTACTO </h1>
+        <h2> Home > Contacto </h2>
+    </article>
+    <div class="Lado SeccionDesigual">
+        <section class="Blanco">
+            <h2> Contact us </h2>
+            <p> Interested in this property or ready to see it in person?
+                Send us your request and we'll arrange a visit at your
+                convience
+            </p>
+
+            <img src="../Imagenes/tio.webp" alt="Foto de una persona">
+            <h3> Emily Rodriguez </h3>
+            <h4> +34 343 546 776 </h4>
+        </section>
+        <main>
+            <form id="email_form">
+                <div class="SeccionDoble">
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    <input type="email" id="email" name="email" placeholder="Tu email">
+                </div>
+                <div class="SeccionDoble">
+                    <label for="fecha" class="sr-only">Fecha</label>
+                    <input type="date" id="fecha" name="fecha">
+                    <label for="hora" class="sr-only">Hora</label>
+                    <input type="time" id="hora" name="hora">
+                </div>
+                <div>
+                    <textarea id="mensaje" name="mensaje" placeholder="Deja un mensaje para que nos podamos comunicar contigo mejor"></textarea>
+                </div>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+            <p id="Resultat"></p>
+        </main>
+    </div>
+    <div class="SeccionTriple">
+        <div class="Abajo">
+            <h3> Address </h3>
+            <p> 728 Evergreen Terrance, </p>
+            <p> Brooklyn </p>
+        </div>
+        <div class="Abajo MargenAuto">
+            <img src="../Imagenes/img.webp" class="Logo" alt="Logo">
+            <div class="Logitos MargenAuto">
+                <a href="https://web.whatsapp.com">
+                    <img src="../Imagenes/Whats.webp" alt="Logo de Whatsapp"
+                </a>
+                <a href="https://twitter.com">
+                    <img src="../Imagenes/Twitter.webp" alt="Logo de Twitter">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../Imagenes/Insta.webp" alt="Logo de Instagram">
+                </a>
+                <a href="https://facebook.com">
+                    <img src="../Imagenes/face.webp" alt="Logo de Facebook">
+                </a>
+            </div>
+        </div>
+        <div class="Abajo">
+            <h3> Contact Us </h3>
+            <p> (+1) 234-5678 </p>
+            <p> contact@homely.com </p>
+        </div>
+    </div>
+    <footer>
+        <p> Copyright 2026 Marketing Digital </p>
+    </footer>
+</body>
+</html>
