@@ -72,6 +72,7 @@ article{
     background-image: url("../Imagenes/img_1.webp");
     font-size: 30px;
     padding: 4% 0%;
+    min-height: 400px;
 }
 article > div{
     width: 100%;
@@ -90,10 +91,11 @@ article > div > div{
     text-align: right;
 }
 
-article > div > div > img{
+.Foto{
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    aspect-ratio: 1;
 }
 
 .Ad {
