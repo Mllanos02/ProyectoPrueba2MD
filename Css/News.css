@@ -87,7 +87,6 @@ main > div > div{
     display: flex;
     border-radius: 12%;
     width: 15%;
-    padding: 0% 0%;
     min-height: 200px;
 }
 main > div > div > div > h3{
@@ -178,6 +177,9 @@ footer{
 
 .Uno{
     background-image: url("../Imagenes/Casa.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .Dos{
