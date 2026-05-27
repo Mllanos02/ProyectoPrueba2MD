@@ -487,8 +487,9 @@ footer{
 /* A partir de 800px, el responsive se activa */
 @media (max-width: 800px) {
     header > img{width: 30%; margin: auto}
-    header, nav {display:flex; flex-direction: column; width: 100%; justify-content: center; text-align: center}
-    header > button {display:flex; flex-direction: column; width: 20%; margin: auto; text-align: center}
+    header, nav {display:flex; flex-direction: column; width: 100%; justify-content: center; text-align: center; margin: auto}
+    nav > a {margin-bottom: 20px}
+    header > button {display:flex; flex-direction: column; width: 20%; margin: auto; text-align: center; font-size: 20px}
     article, .Ad, article > div, .Ad > div{display: flex; flex-direction: column; width: 100%; align-items: center;
         text-align: center}
     .Lado, .LadoReversa {display:flex;flex-direction: column;}
