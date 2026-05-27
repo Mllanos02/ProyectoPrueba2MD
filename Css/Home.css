@@ -470,9 +470,9 @@ textarea{
 }
 
 .Logitos > a > img{
-    width: 20%;
+    width: 8%;
     height: auto;
-    min-width: 20%;
+    min-width: 8%;
 }
 footer{
     width: 100%;
@@ -525,7 +525,7 @@ footer{
     }
 
     .Logitos > img{
-        width: 20%;
+        width: 8%;
         height: auto;
         margin-bottom: 3px;
     }
