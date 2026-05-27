@@ -14,10 +14,17 @@ header{
     flex-direction: row;
     justify-content: space-around;
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header > button{
     padding: 0.5%;
+}
+
+img{
+    width: 5%;
+    height: 1%;
 }
 
 button {
@@ -110,7 +117,7 @@ main > div > div > div > h3{
 }
 
 .Logo{
-    width: 20%;
+    width: 7%;
     height: auto;
     align-self: center;
 }
