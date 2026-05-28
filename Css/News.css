@@ -251,6 +251,7 @@ a{
     width: 20%;
     height: auto;
     align-self: center;
+    aspect-ratio: 1 / 1;
 }
 
 .Selector > div{
@@ -283,11 +284,13 @@ a{
         width: 70%;
         height: auto;
         align-self: center;
+        aspect-ratio: 1 / 1;
     }
     .Logitos > a > img{
         width: 20%;
         height: auto;
         min-width: 20%;
+        aspect-ratio: 1 / 1;
     }
     .SeccionTriple {flex-direction: column}
 }
