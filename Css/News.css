@@ -100,7 +100,7 @@ main > div > div{
     display: flex;
     border-radius: 12%;
     width: 15%;
-    min-height: 200px;
+    height: 205px;
     contain: layout;
 }
 main > div > div > div > h3{
