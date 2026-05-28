@@ -138,6 +138,7 @@ main > div > div > div > h3{
     width: 8%;
     height: auto;
     min-width: 8%;
+    aspect-ratio: 1 / 1;
 }
 .SeccionTriple > div{
     width: 33%;
