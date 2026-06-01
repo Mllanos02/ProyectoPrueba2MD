@@ -57,6 +57,7 @@ article > h2{
     width: 100%;
     align-items: center;
     padding: 3% 0%;
+    min-height: 400px;
 }
 .SeccionDesigual > main {
     display: flex;
@@ -122,6 +123,7 @@ textarea{
     align-items: center;
     width: 100%;
     padding: 1% 0%;
+    min-height: 180px;
 }
 
 .SeccionTriple > div{

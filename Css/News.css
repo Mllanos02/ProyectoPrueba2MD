@@ -2,12 +2,12 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: #033d09;
+    background-color: white;
     align-items: center;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-    font-family: Calibri;
+    font-family: Calibri, 'Segoe UI', Arial, sans-serif;
 }
 header{
     display: flex;
@@ -88,6 +88,7 @@ main{
     width: 100%;
     color: white;
     min-height: 500px;
+    contain: layout size;
 }
 
 main > div{
@@ -102,6 +103,8 @@ main > div > div{
     width: 15%;
     height: 205px;
     contain: layout;
+    min-height: 205px;
+    flex-shrink: 0;
 }
 main > div > div > div > h3{
     margin-left: 2%;
@@ -261,8 +264,16 @@ a{
     padding: 1%;
 }
 
+.Green{
+    background-color: #033d09;
+}
+
+.Negro{
+    background-color: black;
+}
+
 @media (max-width: 800px) {
-    header > .Logo{ width: 20%; height: auto}
+    header > .Logo{ width: 20%; height: auto;     contain: strict; }
     header > img{width: 10%; margin: auto;}
     header, nav {display:flex; flex-direction: column; width: 100%; justify-content: center; text-align: center}
     header > button {display:flex; flex-direction: column; width: 50%; justify-content: center; text-align: center; margin: auto}
@@ -286,6 +297,7 @@ a{
         height: auto;
         align-self: center;
         aspect-ratio: 1 / 1;
+        contain: strict;
     }
     .Logitos > a > img{
         width: 20%;
