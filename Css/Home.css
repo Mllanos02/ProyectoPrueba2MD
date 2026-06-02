@@ -490,6 +490,9 @@ footer{
 }
 /* A partir de 800px, el responsive se activa */
 @media (max-width: 800px) {
+    .Icon, .Foto{
+        margin: auto;
+    }
     header > img{width: 30%; margin: auto}
     header, nav {display:flex; flex-direction: column; width: 100%; justify-content: center; text-align: center; margin: auto}
     nav > a {margin-bottom: 20px}

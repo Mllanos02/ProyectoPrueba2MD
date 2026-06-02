@@ -104,10 +104,11 @@ main > div > div{
     height: 205px;
     contain: layout;
     min-height: 205px;
-    flex-shrink: 0;
 }
 main > div > div > div > h3{
     margin-left: 2%;
+    font-size: 17px;
+    color: white;
 }
 
 .Lado{
@@ -285,6 +286,9 @@ a{
         flex-direction: column;
         justify-content: center;
         align-content: center;
+    }
+    main > div > div > div > h3{
+        margin: 0% 5%;
     }
 
     main > div > div{
